@@ -1,0 +1,27 @@
+File ini berisi hasil pekerjaan dari tugas perkuliahan mata kuliah Sistem Manajemen Basis Data. Dalam tugas ini, saya diminta untuk membuat sebuah sistem database sederhana menggunakan bahasa pemrograman Python. Sistem ini dirancang untuk mencatat transaksi keuangan harian pada sebuah UMKM.
+
+Langkah-langkah yang saya lakukan dalam menyelesaikan tugas ini adalah sebagai berikut:
+
+1. Membuat file database dengan nama “Laporan” menggunakan SQLite melalui Python.
+
+2. Membuat beberapa tabel dalam database tersebut, yaitu:
+
+    a) Tabel User yang berisi informasi login seperti username, password, dan status (admin atau user).
+
+    b) Tabel Informasi UMKM yang mencatat data mahasiswa seperti NIM, nama, dan program studi.
+
+    c) Tabel Akun yang berisi daftar akun-akun keuangan lengkap dengan ID, nama, dan jenis akunnya.
+
+    d) Tabel Transaksi yang mencatat transaksi keuangan harian, lengkap dengan tanggal, akun terkait, keterangan, dan jumlah.
+
+3. Mengisi tabel User dengan minimal 5 data yang terdiri dari status admin dan user.
+
+4. Mengisi tabel Informasi UMKM dengan data pribadi saya sebagai mahasiswa.
+
+5. Mengisi tabel Akun dengan data akun-akun keuangan yang sudah ditentukan, seperti Kas, Piutang, Utang, Modal, Penjualan, dan Beban.
+
+6. Membuat 10 transaksi keuangan secara bebas dan memasukkannya ke dalam tabel transaksi.
+
+7. Menyusun fungsi CRUD (Create, Read, Update, Delete) untuk tabel akun dan transaksi agar data dapat dikelola dengan mudah.
+
+8. Membuat sistem login yang membedakan antara pengguna biasa (user) dan admin, di mana admin memiliki akses penuh untuk melihat, menambahkan, dan mengubah data akun maupun transaksi.
